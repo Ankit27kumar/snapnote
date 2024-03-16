@@ -1,0 +1,128 @@
+.navbar{
+  padding:20px !important;
+  background-color: rgba(234, 196, 9, 0.52) !important;
+}
+
+.brandName{
+
+  font-size:25px !important;
+  font-weight: bold !important;
+
+}
+.loginbutton{
+  color:black !important;
+  background-color: white !important;
+  position: absolute !important;
+  right: 40px !important;
+}
+
+/* #loginarea{
+  border:1px solid black !important;
+  padding:30px !important;
+  width:300px !important;
+  margin: 150px 0 0 500px !important;
+  
+}
+.username{
+  margin: 5px !important;
+  height: 20px !important;
+  width: 200px !important;
+} */
+
+.loginarea {
+  text-align: center !important;
+  margin-top: 100px !important;
+  /* border:  2px solid black !important; */
+  /* width:250px !important; */
+}
+
+.loginarea div {
+  margin-bottom: 20px !important;
+}
+
+.username {
+  /* width:  !important; */
+  padding: 10px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  box-sizing: border-box !important;
+  font-size: 16px !important;
+}
+
+span {
+  margin-top: 15px !important;
+}
+.notesarea{
+  margin: 50px 0 0 50px !important;
+}
+body{
+  background-color:rgba(180, 175, 146, 0.52) !important ;
+}
+.addsign{
+  margin-left: 200px !important;
+  background-color: rgba(234, 196, 9, 0.52) !important;
+}
+.completenote{
+  align-items: center !important;
+  border: 1px !important;
+}
+
+
+.deletebutton{
+  /* background-color: rgba(234, 196, 9, 0.52) !important;
+ color: white !important; */
+ font-size: 10px !important;
+ /* position:absolute !important;
+ right:4px !important; */
+
+}
+.notecard{
+  border: 1px solid rgba(234, 196, 9, 0.52) !important;
+  background-color: white !important;
+  display: inline-block !important;
+  padding: 10px 10px 3px 10px  !important;
+  margin: 10px  !important;
+}
+/* .nore{
+  padding:1px 1px 1px 1px !important;
+} */
+
+/* note section  */
+.noteclass{
+  display: inline-block !important;
+  margin:20px !important;
+  padding:10px !important;
+}
+.notedec{
+ margin-top: 5px !important;
+ padding:10px !important;
+}
+.notetitle{
+  width: 100% !important;
+  border: none !important;
+  color:black !important;
+}
+/* .notedec:focus{
+  color:white  !important;
+  box-shadow: none !important;
+} */
+.notebutton{
+  align-items: center !important;
+}
+.formcard{
+  display: inline !important;
+}
+.carddetial{
+  margin:20px 30px 20px 30px !important;
+  padding:10px !important;
+}
+.tit{
+   font-size: 18px !important;
+   font-family: 'Times New Roman', Times, serif !important;
+   font-weight: 600 !important;
+}
+.dic{
+   font-size: 15px !important;
+   color:rgba(39, 38, 38, 0.598) !important;
+   font-family: 'Courier New', Courier, monospace !important;
+}
