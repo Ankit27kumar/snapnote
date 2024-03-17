@@ -32,7 +32,7 @@ if(user){
                 }} /> </div>
                 <Button variant="contained" 
                     onClick={async () => {
-                        await axios.post("https://snapnote-backend.vercel.app/signup", {
+                        await axios.post("http://localhost:3000/signup", {
                             username: username,
                             password: password
                         }).then(resp => {
