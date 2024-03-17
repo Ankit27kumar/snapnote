@@ -14,7 +14,7 @@ function Notes() {
         <div>
             <div className='navbar'>
                 <span className='brandName'>SnapNote
-                    <Button className='loginbutton' variant="contained" href="/login">Login</Button>
+                    <Button className='loginbutton' variant="contained" href="/login">Create Notes</Button>
                 </span>
             </div>
             
