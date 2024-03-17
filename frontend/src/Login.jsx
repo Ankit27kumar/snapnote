@@ -19,7 +19,7 @@ function Login(){
     // const history = useHistory(); 
 
     function onPress() {
-        fetch("https://snapnote-backend.vercel.app/login", {
+        fetch("http://localhost:3000/login", {
             method: "POST",
             body: JSON.stringify({
                 username: username,
