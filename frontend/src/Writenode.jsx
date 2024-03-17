@@ -17,7 +17,7 @@ function Writenode() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("https://snapnote-backend.vercel.app/getnote", {
+        const response = await axios.get("http://localhost:3000/getnote", {
           headers: {
             "Content-Type": "application/json",
             "Authorization": "Bearer " + localStorage.getItem("token")
@@ -36,7 +36,7 @@ function Writenode() {
   const addNote = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post("https://snapnote-backend.vercel.app/note", {
+      const response = await axios.post("http://localhost:3000/note", {
         title: title,
         description: description
       }, {
@@ -58,7 +58,7 @@ function Writenode() {
 
   const deleteNote = async (noteId) => {
     try {
-      const response = await axios.delete(`https://snapnote-backend.vercel.app/${noteId}`, {
+      const response = await axios.delete(`http://localhost:3000/${noteId}`, {
         headers: {
           "Content-Type": "application/json",
           "Authorization": "Bearer " + localStorage.getItem("token")
