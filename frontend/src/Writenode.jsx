@@ -57,6 +57,7 @@ function Writenode() {
   
 
   const deleteNote = async (noteId) => {
+    console.log(noteId)
     try {
       const response = await axios.delete(`http://localhost:3000/delete/${noteId}`, {
         headers: {
@@ -66,6 +67,7 @@ function Writenode() {
       });
       // Update state to remove the deleted note
       setAdnote(prevNotes => prevNotes.filter(note => note._id !== noteId));
+
     } catch (error) {
       console.error('Error deleting note:', error);
     }

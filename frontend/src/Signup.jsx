@@ -37,7 +37,8 @@ if(user){
                             password: password
                         }).then(resp => {
                             // console.log(resp.data.message);
-                            getMess("Error")
+                            getMess("Error");
+                            console.log(resp.data)
                            const token = resp.data.token
                            exitUser(token);
                             console.log("code reached yaha tak", token);
