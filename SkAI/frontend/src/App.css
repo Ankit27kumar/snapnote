@@ -1,0 +1,480 @@
+.navbar-toggler-icon{
+  background-color: white !important;
+  border-radius: 12% !important;
+  padding: 15px !important;
+}
+
+.scrolled{
+  background-color: rgba(255, 255, 255, 0.8) !important;
+ 
+}
+p{
+  margin-bottom: 0 !important;
+}
+
+.logo {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50px !important;
+}
+
+.droppage {
+  color: #f3f4fe !important;
+}
+
+.nav-link {
+  color: white !important;
+  margin: 0 15px 0 15px !important;
+  
+}
+.navcolor.nav-link:hover{
+  color:black !important;
+}
+.navcolor .nav-link { 
+   color:#ffaa00 !important;
+  }
+
+  .scrollbut {
+    color: #ffaa00 !important; /* Change to desired color */
+  }
+  
+.text-dark{
+  color:black !important;
+}
+
+ .navbar-nav {
+  margin-left: 50% !important;
+}
+
+.mainnav {
+  background-color: black !important;
+}
+
+.brand {
+  color: white !important;
+}
+
+.alllink {
+  margin-left: 40px !important;
+}
+
+.regbutton {
+  position: absolute !important;
+  right: 70px !important;
+}
+
+.signin {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.signup:hover {
+  background-color: white !important;
+  color: #ffaa00 !important;
+} 
+
+
+/* sign up/sign in section */
+.signupcard {
+  padding: 10px !important;
+  align-items: center !important;
+  width: 400px !important;
+}
+.sg{
+  margin:100px 0 100px 0 !important;
+}
+
+.signupbutton {
+  width: 100% !important;
+  background-color: black !important;
+  border: none !important;
+}
+
+.signupbutton:hover {
+  background-color: #ffaa00 !important;
+}
+
+.formdet {
+  border: 2px solid #637381 !important;
+  border-radius: 3px !important;
+}
+
+.formdet:focus {
+  box-shadow: none !important;
+  border-color: black !important;
+}
+
+.signinq {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.notmember {
+  color: #637381 !important;
+  display: inline-block !important;
+}
+.facebook{
+color:white !important;
+background-color: #316FF6 !important;
+width: 80px !important;
+border:1px solid #316FF6 !important;
+margin:10px !important;  
+}
+.facebook:hover{
+  background-color:  #3b5998 !important;
+}
+.twitter{
+    color:white !important;
+    background-color: #1c9cea !important;
+    width: 80px !important;
+    border:1px solid #1c9cea !important;
+    margin:10px !important;
+}
+.twitter:hover{
+  background-color:#1DA1F2 !important ;
+}
+.envelope{
+  color:white !important;
+    background-color: #d64937 !important;
+    width: 80px !important;
+    border:1px solid #d64937 !important;
+    margin:10px !important;
+}
+.fgpas{
+  text-decoration: none !important;
+  color:#637381 !important;
+  margin-bottom: 0 !important;
+  margin-top: 40px !important;
+
+}
+.fgpas:hover{
+  color:rgb(40, 115, 153) !important;
+  
+}
+.connect{
+  color:#637381 !important;
+  margin-top: 40px !important;
+  margin-bottom: 0 !important;
+}
+
+
+/* home section */
+.home1 {
+  background-color: black !important;
+  color: white !important;
+  padding: 80px !important;
+}
+.homedetail{
+  padding:8% 0 0 5% !important;
+}
+.hometitle {
+  font-size: 50px !important;
+  font-weight: bolder !important;
+}
+
+.homedescription {
+  font-size: 20px !important;
+  color: #637381 !important;
+  max-width: 600px !important;
+}
+
+.learnmore {
+  background-color: #f3f4fe !important;
+  color: #ffaa00 !important;
+  margin-top: 40px !important;
+}
+
+.learnmore:hover {
+  color: #f3f4fe !important;
+  background-color: #ffaa00 !important;
+}
+
+/* features section */
+
+.fetitle {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  margin-bottom: 0 !important;
+
+}
+
+.fetdec {
+  color: #ffaa00 !important;
+  font-size: 40px !important;
+  font-weight: bolder !important;
+  margin-bottom: 0 !important;
+}
+
+#features {
+  padding: 80px !important;
+}
+
+.fetdetail {
+  padding-top: 20px !important;
+}
+
+.fettitle {
+  color: #ffaa00 !important;
+  font-size: 20px !important;
+  text-align: center !important;
+  margin-top: 10px !important;
+}
+
+.fedetail {
+  color: #637381 !important;
+  text-align: center !important;
+  margin-top: 10px !important;
+}
+
+/* about us section */
+#about {
+  padding: 80px !important;
+  background-color: #f3f4fe !important;
+}
+.aboutdetail{
+  max-width: 600px !important;
+  color: #637381 !important;
+}
+.aboutdetail1{
+  max-width: 600px !important;
+  margin-bottom: 1.2rem !important;
+  color: #637381 !important;
+}
+.abut {
+  font-size: 15px !important;
+  padding: 7px !important;
+  display: inline-block !important;
+  background-color: black !important;
+  color: white !important;
+  margin-bottom: 1.2rem !important;
+}
+
+.abutgrid {
+  background-color: white !important;
+  padding: 40px !important;
+}
+
+.aboutimg {
+  width: 400px !important;
+  height: 500px !important;
+}
+
+/* .aboutvideo{
+  margin:80px !important;
+} */
+
+/* priceing section */
+#pricing {
+  padding: 80px !important;
+  line-height: 1.5 !important;
+
+}
+
+.prdetail {
+  color: #637381 !important;
+  font-size: 20px !important;
+}
+
+.pricingcard {
+  display: inline-block !important;
+}
+
+
+/* achievement section  */
+#achievement {
+  padding: 80px !important;
+  background-color: #f3f4fe !important;
+}
+
+.teamimg1{
+  width: 350px !important;
+  height: 350px !important;
+  padding:20px !important;
+}
+/* team section */
+#team {
+  padding: 80px !important;
+
+}
+
+.teamcard {
+  display: inline-block !important;
+}
+
+.teamimg {
+  width: 350px !important;
+  height: 350px !important;
+}
+
+
+.teamname {
+  color: #ffaa00 !important;
+  font-size: 20px !important;
+}
+
+.teamrole {
+  color: #637381 !important;
+}
+
+.teamcon {
+  margin-top: 20px !important;
+}
+
+/* contact section  */
+#contact {
+  padding: 80px !important;
+}
+
+.contitle {
+  color: #ffaa00 !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  margin-bottom: 0 !important;
+}
+
+.contactdec {
+  color: #ffaa00 !important;
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  margin-bottom: 0 !important;
+  line-height: 1 !important;
+
+}
+
+.fomes {
+  margin-bottom: 0 !important;
+  color: #637381 !important;
+  font-size: 13px !important;
+  margin-top: 15px !important;
+}
+
+.sendmessage {
+  margin: 20px !important;
+  align-items: center !important;
+  background-color: black !important;
+}
+
+.sendmessage:hover {
+  background-color: #ffaa00 !important;
+}
+
+.teamdetails {
+  align-items: center !important;
+}
+.condetail{
+  display: inline !important;
+  margin: 2 rem 0;
+  padding: 1 rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+
+}
+.location{
+  padding:50px !important;
+  color:#637381 !important;
+
+}
+.helpdetail{
+  padding:50px !important;
+  color:#637381 !important;
+}
+/* carousel section  */
+
+#support {
+  padding: 80px !important;
+  margin: 20px !important;
+}
+
+.supported {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  /* margin-bottom:0 !important; */
+}
+
+.carouselimage {
+  width: 120px !important;
+  height: 70px !important;
+  display: inline-block !important;
+}
+
+.carousel-indicators {
+  display: none !important;
+}
+
+.carouselitem {
+  display: inline-block !important;
+}
+
+/* modal section  */
+.mdal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height to the viewport height */
+}
+
+.modal-dialog {
+  max-width: 400px; /* Set the maximum width of the modal */
+}
+
+
+
+/* footer section  */
+.footer {
+  padding: 80px !important;
+  background-color: #ffaa00 !important;
+  color: white !important;
+}
+
+.fodetail {
+  font-size: 15px !important;
+  line-height: 24px !important;
+  color: #f3f4fe !important;
+  margin-bottom: 30px !important;
+  max-width: 260px !important;
+}
+
+.fotitle {
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  margin-bottom: 35px !important;
+}
+
+.socialhandle {
+  margin: 5px !important;
+  font-size: 20px !important;
+  color: white !important;
+}
+
+.socialhandle:hover {
+  color: black !important;
+}
+
+.folink {
+  transition: transform 0.9s ease-in-out !important;
+  text-decoration: none !important;
+  margin-bottom: 12px !important;
+  font-size: 15px !important;
+  line-height: 30px !important;
+  color: #f3f4fe !important;
+}
+
+.folink:hover {
+  color: black !important; /* Change to desired hover color */
+  animation: slidein 0.3s forwards !important; /* Animation duration and effect */
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(0) !important;
+  }
+  to {
+    transform: translateX(5px) !important; /* Adjust the distance of movement */
+  }
+}
+
+
+li {
+  list-style: none !important;
+}
