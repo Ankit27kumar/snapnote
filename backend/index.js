@@ -24,11 +24,7 @@ const notesSchema = new mongoose.Schema({
 const Admin = mongoose.model('Admin', adminSchema);
 const Note = mongoose.model('Note', notesSchema);
 
-mongoose.connect('mongodb+srv://2022007381ankit:uJM52WsQHOKnQwkS@cluster0.etoup5d.mongodb.net/snapnote', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  dbName: "snapnote"
-}).then(() => {
+mongoose.connect('mongodb+srv://2022007381ankit:JsFPxJpBJV0zUEd2@cluster0.etoup5d.mongodb.net/snapnote').then(() => {
   console.log("Connected to MongoDB");
 }).catch((err) => {
   console.error("Error connecting to MongoDB:", err);

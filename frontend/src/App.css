@@ -1,6 +1,7 @@
 .navbar{
-  padding:20px !important;
-  background-color: rgba(234, 196, 9, 0.52) !important;
+  padding: 20px 20px 20px 60px !important;
+  
+  /* background-color: rgba(234, 196, 9, 0.52) !important; */
 }
 
 .brandName{
@@ -15,7 +16,32 @@
   position: absolute !important;
   right: 40px !important;
 }
+.homeimage{
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .homeimage {
+    width: 100% !important; /* Adjust image width for smaller screens */
+    height: auto !important; /* Maintain aspect ratio */
+  }
+}
+.homepage{
+  padding:50px !important;
+}
+.homedetail{
+  padding:20px !important;
+}
+.hometitle {
+  font-size: 50px !important;
+  font-weight: bolder !important;
+  margin-bottom:0 !important;
+}
 
+.homedescription {
+  font-size: 20px !important;
+  color: #637381 !important;
+  max-width: 600px !important;
+}
 /* #loginarea{
   border:1px solid black !important;
   padding:30px !important;
@@ -56,7 +82,7 @@ span {
   margin: 50px 0 0 50px !important;
 }
 body{
-  background-color:rgba(180, 175, 146, 0.52) !important ;
+  background-color:white !important ;
 }
 .addsign{
   margin-left: 200px !important;
